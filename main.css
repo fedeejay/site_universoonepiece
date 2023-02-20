@@ -1,0 +1,179 @@
+/* ESTILO 1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h1,
+section h2,
+form button {
+    font-family: 'ONE PIECE', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header .logo-piece {
+    width: 45%;
+    text-align: center;
+}
+
+section h3, body, input, textarea {
+    font-family: 'Comic Neue', cursive;
+}
+
+/* ESTILO 2 */
+header {
+    padding: 16px 0;
+    background-color: rgb(0, 26, 255);
+    color: #ffbb00;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color:  #ffbb00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* ESTILO 3 */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ESTILO 4 */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILO 5 */
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILO 6 */
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+/* ESTILO 7 */
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #001aff;
+}
+
+section p {
+    margin-bottom: 24px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+/* ESTILO 8 */
+.store-front {
+    width: 700px;
+    margin-right: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(255, 0, 0);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff0000;
+}
+
+input:focus, textarea:focus {
+    outline: #ffffff;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color:rgb(4, 0, 255);
+    color:#ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:  rgb(255, 0, 0);;
+}
+
+input:focus, textarea:focus {
+    outline-color:  rgba(255, 0, 0, 0.836);
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.692);
+    color: #ffffff;
+    padding: 16px 0;
+}
