@@ -5,10 +5,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "ONE PIECE";
+    src: url("font/OnePiece-zAqL.ttf") format("truetype");
+}
+
 header,
 section h1,
 section h2,
-form button {
+form button 
+#text-element {
     font-family: 'ONE PIECE', cursive;
     font-weight: bold;
     font-size: 25px;
